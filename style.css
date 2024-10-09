@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: 2px red solid; 不具合を探すための設定*/
 
 }
 
@@ -89,7 +90,6 @@ a:hover{
 }
 
 img{
-    max-width: 100%;
     width: 100%;
     height: auto;
     vertical-align: bottom;
@@ -111,9 +111,17 @@ img{
 
 /*=== 横幅設定 ===*/
 .wrapper{
-    padding: 0 8%;
+    padding: 0 4%;
 
 }
+
+@media(min-width:768px){
+    .wrapper{
+        padding: 0 8%;
+
+    }
+
+}/* min-width;768px end */
 
 /*=== 余白設定 ===*/
 /* margin-top */
@@ -382,6 +390,8 @@ img{
     display: block;
     position: relative;
     left: 33.6%;
+    width: 12rem;
+
 }
 
 @media(min-width:768px){
