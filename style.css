@@ -221,6 +221,7 @@ img{
     .pt1,
     .pl1{
         padding: 0;
+
     }
 
 }/* max-width:1024px end */
@@ -481,29 +482,11 @@ img{
     
     }
 
-    /* 一旦コメントアウト、PC版の表示がおかしい
-    .work__item-figure{
-        display: grid;
-        grid-template-rows: 20rem auto;
-
-    }
-
-    .work__item-image{
-        grid-row: 1 / 1;
-        width: auto;
-        height: 100%;
-
-    }
-
-    .work__item-caption{
-        grid-row: 2 / 2;
-
-    } */
-
 }/* min-width:768px end */
 
 @media(min-width:1025px){
     .work__list{
+        display: grid;
         grid-template-columns: 40% 10% 50%;
         grid-template-rows: auto auto auto auto;
         gap: 0;
@@ -579,6 +562,17 @@ img{
         margin: 0;
     }
 
+    .work__item-box{
+        display: initial;
+        height: initial;
+        background-color: var(--White);
+    
+    }
+    
+    .work__item-image{
+        width: 100%;
+        height: auto;
+        object-fit: initial;
     
 }/* min-width:1025px end */
 
