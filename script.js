@@ -21,33 +21,3 @@ jQuery(function ($) {
     });
   });
 
-// // 高さを揃える要素
-// const target = document.querySelectorAll('work__item-image');
-// // 空の配列を指定
-// const heightlist = [];
-// // 要素の高さを全て配列に格納
-// target.forEach(element => {
-//     const height = element.clientHeight;
-//     heightlist.push(height);
-// });
-// // 一番高さがある要素のheightを取得
-// const maxHeight = Math.max.apply(null,heightlist);
-// // 要素にstyle属性を付与。一番高さのある要素のheightを揃える要素全てに指定
-// target.forEach(element => {
-//     element.style.height = maxHeight + 'px';
-// });
-
-
-
-
-// // worksコンテンツの写真や説明文の要素の高さを合わせるための設定
-// var maxHeight = 0;
-// $('.work__item').each(function(){
-//     // 変数に入っている高さを上回ったら上書きする
-//     if ($(this).height() > maxHeight){
-//         maxHeight = $(this).height();
-//     }
-// });
-
-// // 変数の数値を反映させる
-// $('.work__item').height(maxHeight);
