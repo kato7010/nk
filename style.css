@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: 2px red solid; 不具合を探すための設定*/
 
 }
 
@@ -390,6 +391,8 @@ img{
     display: block;
     position: relative;
     left: 33.6%;
+    width: 12rem;
+
 }
 
 @media(min-width:768px){
