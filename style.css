@@ -111,9 +111,17 @@ img{
 
 /*=== 横幅設定 ===*/
 .wrapper{
-    padding: 0 8%;
+    padding: 0 4%;
 
 }
+
+@media(min-width:768px){
+    .wrapper{
+        padding: 0 8%;
+
+    }
+
+}/* min-width;768px end */
 
 /*=== 余白設定 ===*/
 /* margin-top */
