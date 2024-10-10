@@ -486,7 +486,6 @@ img{
     }
     
     .work__item-image{
-        width: auto;
         height: 100%;
         object-fit: contain;
     
